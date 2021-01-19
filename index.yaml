@@ -3,7 +3,7 @@ entries:
   openvpn:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2021-01-20T06:21:28.724291+07:00"
+    created: "2021-01-20T06:29:40.194907+07:00"
     description: A Helm chart to install an openvpn server inside a kubernetes cluster.  Certificate
       generation is also part of the deployment, and this chart will generate client
       keys as needed.
@@ -26,30 +26,4 @@ entries:
     urls:
     - https://quodai.github.io/helm-charts/openvpn-5.0.0.tgz
     version: 5.0.0
-  - apiVersion: v1
-    appVersion: 1.1.0
-    created: "2021-01-20T06:21:28.722448+07:00"
-    deprecated: true
-    description: DEPRECATED - A Helm chart to install an openvpn server inside a kubernetes
-      cluster.  Certificate generation is also part of the deployment, and this chart
-      will generate client keys as needed.
-    digest: 88c2bcbf8e0774bbe3f0659cad7e9984886429680e12f2332ff42dd8fd8ce55a
-    home: https://openvpn.net/index.php/open-source.html
-    icon: https://forums.openvpn.net/styles/openvpn/theme/images/ovpnlogo.png
-    keywords:
-    - openvpn
-    - vpn
-    - tunnel
-    - network
-    - service
-    - connectivity
-    - encryption
-    name: openvpn
-    sources:
-    - https://github.com/jfelten/openvpn-docker
-    - https://github.com/kubernetes/charts/tree/master/stable/openvpn
-    - https://github.com/jfelten/helm-charts
-    urls:
-    - https://quodai.github.io/helm-charts/openvpn-4.2.5.tgz
-    version: 4.2.5
-generated: "2021-01-20T06:21:28.720481+07:00"
+generated: "2021-01-20T06:29:40.193203+07:00"
